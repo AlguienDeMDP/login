@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+    background: #3498db;
+    padding: 50px;
+}
+
+.container{
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+}
+
+.login {
+    text-align: center;
+    color: #777;
+}
+
+.formulario{
+    float: center;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.inputmail{
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.inputpass{
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.button{
+    background: #3498db;
+    font-size: 16px;
+    float: center;
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+    color:#ffff;
+
+}
+
+.button:hover{
+    background: #2980D9;
+}
+
+@media screen and (max-width: 400px){
+    box-shadow: none;
+    border: none;
+
+}
